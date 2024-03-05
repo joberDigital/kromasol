@@ -1,0 +1,49 @@
+body {
+	background-color: #a4cce6;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+#headerPrincipal {
+		padding: 20px 10px;
+margin: 2% 5% 2% 5%;
+border-bottom: 5px solid #9799A6;
+border-right: 5px solid #9799A6;
+display: flex;
+}
+.logo{
+background:url("../imagenes/Captura.PNG")no-repeat;	
+width: 24%;
+height: 150px;
+display: flex;
+justify-content: space-between;
+box-shadow: inset 10px 10px 15px 1px  #9799A6;
+}
+.container{
+ width: 96%; 
+}
+.headerPrincipal-titulo{
+font-weight: bold;
+font-size: 2em;
+box-shadow: inset -10px 10px 15px 1px  #9799A6;
+	margin-left: 40px;
+margin: 45px 20px 40px 20px;
+width:100%;
+opacity:0%;
+}
+.headerPrincipal-titulo, a{
+text-decoration: none;
+color: #8c1010;
+font-weight: bold;
+font-size: 20px;
+padding: 5px;
+}
+.headerPrincipal-titulo:hover{
+	box-shadow: inset 10px 10px 15px 1px  #9799A6;
+	border-bottom: 3px solid #9799A6;
+	border-left: 3px solid #9799A6;
+	margin-left: 40px;
+	margin: 20px 20px 40px 20px;
+	width:80px;
+	}
+    .headerPrincipal-titulo:nth-child(2){
+    opacity: 0%;
+    }
