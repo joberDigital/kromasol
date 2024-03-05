@@ -10,7 +10,7 @@ border-right: 5px solid #9799A6;
 display: flex;
 }
 .logo{
-background:url("../imagenes/Captura.PNG")no-repeat;	
+background:url("./imagenes/Captura.PNG")no-repeat;	
 width: 24%;
 height: 150px;
 display: flex;
@@ -44,6 +44,4 @@ padding: 5px;
 	margin: 20px 20px 40px 20px;
 	width:80px;
 	}
-    .headerPrincipal-titulo:nth-child(2){
-    opacity: 0%;
-    }
+    
